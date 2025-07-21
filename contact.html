@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Wolfler Guzzo Ferreira - Job opportunities and collaboration">
+    <meta name="keywords" content="Contact, Email, LinkedIn, GitHub, Opportunities">
+    <meta name="author" content="Wolfler Guzzo Ferreira">
+
+    <title>Contact - Wolfler Guzzo Ferreira</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">WolflerGF</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="section" style="padding-top: calc(4rem + 80px);">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h1>Get in Touch</h1>
+                <p style="font-size: 1.2rem; color: var(--text-light);">I am always open to new opportunities,
+                    collaborations, and interesting conversations about technology.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form and Info -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="grid grid-2" style="gap: 3rem; align-items: start;">
+                <!-- Contact Form -->
+                <div class="card">
+                    <h2 style="margin-bottom: 1.5rem;">Send a Message</h2>
+                    <form action="https://formspree.io/f/xpzgkqvw" method="POST" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company" class="form-label">Company/Organisation (Optional)</label>
+                            <input type="text" id="company" name="company" class="form-input">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <select id="subject" name="subject" class="form-input" required>
+                                <option value="">Select a subject</option>
+                                <option value="job-opportunity">Job Opportunity</option>
+                                <option value="internship">Internship</option>
+                                <option value="freelance">Freelance Project</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="mentorship">Mentorship</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="6"
+                                placeholder="Tell me more about your proposal, project, or how I can help..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <div class="card" style="margin-bottom: 2rem;">
+                        <h3 style="margin-bottom: 1.5rem;">Contact Information</h3>
+                        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="font-size: 1.5rem; margin-right: 1rem;">📧</span>
+                            <div>
+                                <strong>Email</strong><br>
+                                <a href="mailto:wolfler@wolflergf.com">wolflergf@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="font-size: 1.5rem; margin-right: 1rem;">📍</span>
+                            <div>
+                                <strong>Location</strong><br>
+                                London
+                            </div>
+                        </div>
+
+                        <div style="display: flex; align-items: center;">
+                            <span style="font-size: 1.5rem; margin-right: 1rem;">⏰</span>
+                            <div>
+                                <strong>Availability</strong><br>
+                                Mon - Fri, 9 am to 6 pm (GMT-3)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="margin-bottom: 1.5rem;">Social Media</h3>
+                        <div style="display: flex; flex-direction: column; gap: 1rem;">
+                            <a href="https://www.linkedin.com/in/wolflergf/"
+                                style="display: flex; align-items: center; padding: 0.75rem; background-color: var(--neutral-light); border-radius: 8px; transition: var(--transition);"
+                                onmouseover="this.style.backgroundColor=\'var(--secondary-color)\'; this.style.color=\'white\';"
+                                onmouseout="this.style.backgroundColor=\'var(--neutral-light)\'; this.style.color=\'var(--text-dark)\';">
+                                <span style="font-size: 1.5rem; margin-right: 1rem;">💼</span>
+                                <div>
+                                    <strong>LinkedIn</strong><br>
+                                    <small>Connect with me professionally</small>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/wolflergf/"
+                                style="display: flex; align-items: center; padding: 0.75rem; background-color: var(--neutral-light); border-radius: 8px; transition: var(--transition);"
+                                onmouseover="this.style.backgroundColor=\'var(--secondary-color)\'; this.style.color=\'white\';"
+                                onmouseout="this.style.backgroundColor=\'var(--neutral-light)\'; this.style.color=\'var(--text-dark)\';">
+                                <span style="font-size: 1.5rem; margin-right: 1rem;">🐙</span>
+                                <div>
+                                    <strong>GitHub</strong><br>
+                                    <small>View my projects and code</small>
+                                </div>
+                            </a>
+
+                            <a href="#"
+                                style="display: flex; align-items: center; padding: 0.75rem; background-color: var(--neutral-light); border-radius: 8px; transition: var(--transition);"
+                                onmouseover="this.style.backgroundColor=\'var(--secondary-color)\'; this.style.color=\'white\';"
+                                onmouseout="this.style.backgroundColor=\'var(--neutral-light)\'; this.style.color=\'var(--text-dark)\';">
+                                <span style="font-size: 1.5rem; margin-right: 1rem;">🐦</span>
+                                <div>
+                                    <strong>Twitter</strong><br>
+                                    <small>Follow my updates</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I\'m Looking For -->
+    <section class="section">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">What I\'m Looking For</h2>
+            <div class="grid grid-3">
+                <div class="card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">💼</div>
+                    <h3 class="card-title">Job Opportunities</h3>
+                    <p class="card-description">Junior positions in Python development, Data Science, or related
+                        technology fields.</p>
+                </div>
+
+                <div class="card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🎓</div>
+                    <h3 class="card-title">Internships</h3>
+                    <p class="card-description">Internship opportunities to gain practical experience and contribute to
+                        real projects.</p>
+                </div>
+
+                <div class="card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🤝</div>
+                    <h3 class="card-title">Collaborations</h3>
+                    <p class="card-description">Collaborative projects, open-source contributions, and partnerships in
+                        interesting initiatives.</p>
+                </div>
+
+                <div class="card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">💡</div>
+                    <h3 class="card-title">Freelance Projects</h3>
+                    <p class="card-description">Development of solutions in Python, data analysis, and process
+                        automation.</p>
+                </div>
+
+                <div class="card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🎯</div>
+                    <h3 class="card-title">Mentorship</h3>
+                    <p class="card-description">Guidance from experienced professionals to accelerate my career growth.
+                    </p>
+                </div>
+
+                <div class="card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">💬</div>
+                    <h3 class="card-title">Networking</h3>
+                    <p class="card-description">Connections with other professionals in the field for exchange of
+                        experiences and knowledge.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">Frequently Asked Questions</h2>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="card" style="margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">What is your availability for work?
+                    </h3>
+                    <p>I am available for full-time, part-time, or freelance work. I can start immediately and am
+                        flexible with hours.</p>
+                </div>
+
+                <div class="card" style="margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Do you work remotely?</h3>
+                    <p>Yes! I have experience with remote work and have all the necessary infrastructure. I am also open
+                        to in-person or hybrid work.</p>
+                </div>
+
+                <div class="card" style="margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">What are your main skills?</h3>
+                    <p>My main skills include Python, Data Science, Machine Learning, web development, and automation.
+                        See more details on the <a href="about.html">About</a> page.</p>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">How can I see your work?</h3>
+                    <p>You can check out my projects on the <a href="projects.html">Projects</a> page or visit my GitHub
+                        profile. I also have technical articles on my <a href="blog.html">Blog</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link" title="Email">📧</a>
+                <a href="#" class="social-link" title="LinkedIn">💼</a>
+                <a href="#" class="social-link" title="GitHub">🐙</a>
+                <a href="#" class="social-link" title="Twitter">🐦</a>
+            </div>
+            <p>&copy; 2025 Wolfler Guzzo Ferreira. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
